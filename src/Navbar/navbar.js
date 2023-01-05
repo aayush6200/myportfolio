@@ -4,7 +4,7 @@ import './logo192.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Button from 'react-bootstrap/Button';
 import { Tooltip } from 'bootstrap';
-import { Route, Routes, useNavigate,Link, Navigate, BrowserRouter } from 'react-router-dom';
+
 import Dropdown from 'react-bootstrap/Dropdown';
 import { useEffect } from 'react';
 import { useState } from 'react';
@@ -12,7 +12,7 @@ import { useState } from 'react';
 
 
 const Nav=()=>{
-    const navigate=useNavigate()
+   
     const [val,setVal] =useState(0)
     const [algo,setAlgo]=useState(0)
 

@@ -95,9 +95,9 @@ const moveLeft=()=>{
                     </Dropdown.Menu>
                     </Dropdown>
           
-      <BrowserRouter>
+      
       <Nav/> 
-      </BrowserRouter>
+     
     </div>
   
    { algo===1 && <div className='sort-card ' style={{display:'flex',marginTop:'30px',marginLeft:'20%',height:'100vh'}}>

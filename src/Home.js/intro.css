@@ -1,0 +1,44 @@
+.box{
+    width: auto;
+    height:max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 17rem;
+    text-align: center;
+    
+    
+}
+
+
+#card-one{
+    
+    background-color:rgba(10,20,20,1);
+    height:max-content;
+    margin:auto;
+    margin-top: 10rem;
+    width:60rem;
+    transition: 500ms;
+    box-shadow: 1px 1px 1px bisque;
+}
+
+#card-one:hover{
+    transform:scale(1.1);
+    background-color: rgb(77, 62, 62);
+}
+
+.list{
+    display: flex;
+    flex-grow: 1;
+    list-style: none;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    
+}
+.list>*{
+    font-family: courier;
+    color:beige;
+    
+    
+}
